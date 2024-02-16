@@ -1,0 +1,15 @@
+/Users/hasan/Projects/Roadmap/InterviewQA/bin/Debug/net7.0/InterviewQA
+/Users/hasan/Projects/Roadmap/InterviewQA/bin/Debug/net7.0/InterviewQA.deps.json
+/Users/hasan/Projects/Roadmap/InterviewQA/bin/Debug/net7.0/InterviewQA.runtimeconfig.json
+/Users/hasan/Projects/Roadmap/InterviewQA/bin/Debug/net7.0/InterviewQA.dll
+/Users/hasan/Projects/Roadmap/InterviewQA/bin/Debug/net7.0/InterviewQA.pdb
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/InterviewQA.csproj.AssemblyReference.cache
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/InterviewQA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/InterviewQA.AssemblyInfoInputs.cache
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/InterviewQA.AssemblyInfo.cs
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/InterviewQA.csproj.CoreCompileInputs.cache
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/InterviewQA.dll
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/refint/InterviewQA.dll
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/InterviewQA.pdb
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/InterviewQA.genruntimeconfig.cache
+/Users/hasan/Projects/Roadmap/InterviewQA/obj/Debug/net7.0/ref/InterviewQA.dll

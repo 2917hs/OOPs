@@ -1,0 +1,64 @@
+###
+# Single stage Single job
+###
+name: SampleDemo1_$(Date:yyyyMMdd)$(Rev:.r)
+trigger:
+  - develop
+# stage and job are skipped here
+pool:
+  name: Default
+steps:
+  - task: VSBuild@1
+    # you can use azure assitant/inline script/powershell script
+
+###
+# Single stage Multi job
+###
+name: SampleDemo2_$(Date:yyyyMMdd)$(Rev:.r)
+trigger:
+  - develop
+# stage is skipped here
+jobs:
+  - job: ActivityOnWindowsMachine
+    pool:
+     name: Default
+    steps:
+     - task: VSBuild@1
+     # you can use azure assitant/inline script/powershell script
+  - job: ActivityOnLinux
+    pool:
+      name: default
+    steps:
+     - task: VSBuild@1
+     # you can use azure assitant/inline script/powershell script
+
+###
+# Multi stage Multi job
+###
+name: SampleDemo3_$(Date:yyyyMMdd)$(Rev:.r)
+trigger:
+  - develop
+stages:
+  - stage: BuildApplication
+    jobs:
+      - job: Build
+        pool:
+        name: Default
+        steps:
+        - task: VSBuild@1
+        # you can use azure assitant/inline script/powershell script
+        - task: MSTest@1
+        # you can use azure assitant/inline script/powershell script
+        - task: PublishArtifacts@1
+        # you can use azure assitant/inline script/powershell script
+  - stage: DeployApplication
+    jobs:
+      - job: Deploy
+        pool:
+          name: default
+          steps:
+           - task: DownloadArtifacts@1
+           # you can use azure assitant/inline script/powershell script
+           - task: DeployArtifacts@1
+           # you can use azure assitant/inline script/powershell script
+              
